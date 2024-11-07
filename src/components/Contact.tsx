@@ -19,10 +19,10 @@ export default function Contact({ lang }: Props) {
               className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors"
             >
               <Mail className="w-6 h-6" />
-              <span>contact@example.com</span>
+              <span>ntarchini.developer@gmail.com</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Ntarchini99"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors"
