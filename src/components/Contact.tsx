@@ -15,7 +15,7 @@ export default function Contact({ lang }: Props) {
         <div className="max-w-xl mx-auto bg-gray-900 p-8 rounded-lg border border-purple-500/20">
           <div className="flex flex-col space-y-6">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:ntarchini.developer@gmail.com"
               className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors"
             >
               <Mail className="w-6 h-6" />
@@ -31,7 +31,7 @@ export default function Contact({ lang }: Props) {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nazareno-tarchini/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors"

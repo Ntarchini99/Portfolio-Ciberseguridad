@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+ import { Github } from 'lucide-react';
 import { Language, Project } from '../types';
 
 interface Props {
@@ -67,18 +67,12 @@ export default function Projects({ lang }: Props) {
                 </div>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://github.com/Ntarchini99"
+                    target='blank'
                     className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
                   >
                     <Github className="w-5 h-5 mr-2" />
                     <span>Code</span>
-                  </a>
-                  <a
-                    href="#"
-                    className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
-                  >
-                    <ExternalLink className="w-5 h-5 mr-2" />
-                    <span>Demo</span>
                   </a>
                 </div>
               </div>
